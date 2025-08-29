@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:keyboard-esc$$', h: Fn}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Fn}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
