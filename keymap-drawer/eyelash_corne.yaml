@@ -30,19 +30,19 @@ layers:
   - {t: ;, h: SYMBOL, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '`', s: '~'}
   - Z
   - X
   - C
   - V
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - B
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
+  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
