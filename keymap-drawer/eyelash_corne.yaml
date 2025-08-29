@@ -44,8 +44,8 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - LGUI
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - $$mdi:apple-keyboard-option$$
@@ -93,8 +93,8 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - .
@@ -241,8 +241,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
