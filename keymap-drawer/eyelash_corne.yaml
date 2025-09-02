@@ -45,10 +45,10 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: NAV}
-  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -210,7 +210,7 @@ layers:
   - F9
   - F10
   - {t: F11, type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP TOG
   - RGB ON
   - RGB OFF
   - RGB BRD
