@@ -83,7 +83,7 @@
 &kp GRAVE      &kp EXCL   &kp AT         &kp HASH  &kp DLLR        &kp PERCENT                    &trans          &kp N7  &kp N8  &kp N9      &kp MINUS  &kp FSLH   &kp DELETE
 &kp TILDE      &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR        &kp RPAR               &trans  &trans  &trans  &kp N4  &kp N5  &kp N6      &kp PLUS   &kp STAR   &kp BACKSPACE
 &kp BACKSLASH  &kp PIPE   &kp LBKT       &kp RBKT  &kp LEFT_BRACE  &kp RBRC     &trans            &trans          &kp N1  &kp N2  &kp N3      &kp DOT    &kp EQUAL  &kp ENTER
-                                         &trans    &to 4           &trans                                         &trans  &kp N0  &kp PERIOD
+                                         &trans    &mo 4           &trans                                         &trans  &kp N0  &kp PERIOD
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -95,7 +95,7 @@
 &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(N3)      &kp LA(N4)      &kp LA(N5)                        &trans          &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP      &kp END      &trans  &trans
 &trans  &kp LA(LS(N1))    &kp LA(LS(N2))    &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))            &trans  &trans  &trans  &kp LEFT_ARROW   &kp DOWN       &kp UP           &kp RIGHT    &trans  &trans
 &trans  &trans            &trans            &kp K_COPY      &kp K_PASTE     &trans          &trans            &trans          &kp LA(LS(TAB))  &kp LC(TAB)    &kp LC(LS(TAB))  &kp LA(TAB)  &trans  &trans
-                                            &trans          &trans          &trans                                            &trans           &to 4          &trans
+                                            &trans          &trans          &trans                                            &trans           &mo 4          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
