@@ -130,8 +130,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AC COPY
-  - AC PASTE
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,3 +248,7 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
+- p: [43, 31]
+  k: Ctl+Ins
+- p: [43, 32]
+  k: Sft+Ins
