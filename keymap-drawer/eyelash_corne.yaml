@@ -93,7 +93,7 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: BRD, h: toggle}
+  - BRD
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: BRD, h: toggle}
+  - BRD
   - {t: '$$mdi:transfer$$', type: trans}
   VIM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -240,10 +240,10 @@ layers:
   - OUT USB
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
