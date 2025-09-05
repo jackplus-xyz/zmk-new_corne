@@ -37,24 +37,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-
-        UNI_COPY: UNI_COPY {
-            compatible = "zmk,behavior-mod-morph";
-            label = "UNI_COPY";
-            bindings = <&kp C>, <&kp LC(INSERT)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LGUI)>;
-        };
-
-        UNI_PASTE: UNI_PASTE {
-            compatible = "zmk,behavior-mod-morph";
-            label = "UNI_PASTE";
-            bindings = <&kp V>, <&kp LS(INSERT)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LGUI)>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
