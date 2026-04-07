@@ -80,10 +80,10 @@
         layer_1 {
             display-name = "NUMBER";
             bindings = <
-&kp GRAVE      &kp EXCL   &kp AT         &kp HASH  &kp DLLR        &kp PERCENT                    &trans          &kp N7  &kp N8  &kp N9      &kp MINUS  &kp FSLH   &kp DELETE
-&kp TILDE      &kp CARET  &kp AMPERSAND  &kp STAR  &kp LPAR        &kp RPAR               &trans  &trans  &trans  &kp N4  &kp N5  &kp N6      &kp PLUS   &kp STAR   &kp BACKSPACE
-&kp BACKSLASH  &kp PIPE   &kp LBKT       &kp RBKT  &kp LEFT_BRACE  &kp RBRC     &trans            &trans          &kp N1  &kp N2  &kp N3      &kp DOT    &kp EQUAL  &kp ENTER
-                                         &trans    &mo 4           &trans                                         &trans  &kp N0  &kp PERIOD
+&trans  &kp EXCL  &kp AT        &kp HASH  &kp DLLR        &kp PERCENT                    &trans          &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
+&trans  &kp N1    &kp NUMBER_2  &kp N3    &kp N4          &kp N5                 &trans  &trans  &trans  &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &trans
+&trans  &trans    &kp LBKT      &kp RBKT  &kp LEFT_BRACE  &kp RBRC     &trans            &trans          &trans     &trans         &trans        &trans                &trans                 &trans
+                                &trans    &mo 4           &trans                                         &trans     &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -92,10 +92,10 @@
         layer_2 {
             display-name = "NAV";
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(N3)      &kp LA(N4)      &kp LA(N5)                        &trans          &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP      &kp END      &trans  &trans
-&trans  &kp LA(LS(N1))    &kp LA(LS(N2))    &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))            &trans  &trans  &trans  &kp LEFT_ARROW   &kp DOWN       &kp UP           &kp RIGHT    &trans  &trans
-&trans  &trans            &trans            &trans          &trans          &trans          &trans            &trans          &kp LA(LS(TAB))  &kp LC(TAB)    &kp LC(LS(TAB))  &kp LA(TAB)  &trans  &trans
-                                            &trans          &trans          &trans                                            &trans           &mo 4          &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(N3)      &kp LA(N4)      &kp LA(N5)                        &trans          &kp LG(BACKSPACE)  &kp LG(LS(RIGHT_BRACKET))  &kp LS(LG(LEFT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans
+&trans  &kp LA(LS(N1))    &kp LA(LS(N2))    &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))            &trans  &trans  &trans  &kp LEFT_ARROW     &kp DOWN                   &kp UP                    &kp RIGHT              &trans  &trans
+&trans  &trans            &trans            &trans          &trans          &trans          &trans            &trans          &kp HOME           &kp PAGE_DOWN              &kp PAGE_UP               &kp END                &trans  &trans
+                                            &trans          &trans          &trans                                            &mo 4              &trans                     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -103,10 +103,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans         &kp CARET       &trans            &trans  &trans                         &trans          &trans     &trans     &trans     &trans      &trans  &trans
-&trans  &kp LESS_THAN  &kp EQUAL       &kp GREATER_THAN  &trans  &kp PERCENT            &trans  &trans  &trans  &kp CARET  &kp ASTRK  &kp POUND  &kp DOLLAR  &trans  &trans
-&trans  &trans         &kp UNDERSCORE  &trans            &trans  &trans       &trans            &trans          &trans     &trans     &trans     &trans      &trans  &trans
-                                       &trans            &trans  &trans                                         &trans     &trans     &trans
+&trans  &trans         &kp CARET       &trans            &trans  &trans                         &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &kp LESS_THAN  &kp EQUAL       &kp GREATER_THAN  &trans  &kp PERCENT            &trans  &trans  &trans  &kp CARET             &kp ASTRK          &kp POUND         &kp DOLLAR             &trans  &trans
+&trans  &trans         &kp UNDERSCORE  &trans            &trans  &trans       &trans            &trans          &kp MINUS             &kp PLUS           &trans            &trans                 &trans  &trans
+                                       &trans            &trans  &trans                                         &trans                &trans             &trans
             >;
 
             label = "VIM";
